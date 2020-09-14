@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="8dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#BDBDBD">
+
+        <RelativeLayout
+            android:id="@+id/one"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:elevation="20dp">
+
+            <TextView
+                android:id="@+id/redatelj1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorPrimaryDark"
+                android:textAllCaps="true"
+                android:textStyle="bold"
+                android:text="Redatelj:"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/colorPrimaryDark"
+                android:layout_below="@id/redatelj1"/>
+
+            <TextView
+                android:id="@+id/redatelj"
+                android:layout_width="wrap_content"
+                android:layout_below="@+id/redatelj1"
+                android:layout_height="wrap_content"
+                android:textAllCaps="true"
+                android:paddingBottom="20dp"
+                android:layout_marginTop="10dp"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textColor="#000000"
+                />
+
+            <TextView
+                android:id="@+id/radovi1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/redatelj"
+                android:textColor="@color/colorPrimaryDark"
+                android:textAllCaps="true"
+                android:textStyle="bold"
+                android:text="Najpoznatiji radovi:"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_below="@+id/radovi1"
+                android:layout_height="1dp"
+                android:background="@color/colorPrimaryDark" />
+            <TextView
+                android:id="@+id/radovi"
+                android:layout_below="@id/radovi1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:paddingBottom="20dp"
+                android:textColor="#141414"
+                android:textSize="13sp"
+                android:textStyle="bold"/>
+
+
+            <TextView
+                android:id="@+id/zanimanje1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/radovi"
+                android:textColor="@color/colorPrimaryDark"
+                android:textAllCaps="true"
+                android:textStyle="bold"
+                android:text="Opis zanimanja redatelja:"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/colorPrimaryDark"
+                android:layout_below="@id/zanimanje1"/>
+
+            <TextView
+                android:id="@+id/zanimanje"
+                android:layout_below="@id/zanimanje1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:paddingBottom="20dp"
+                android:textColor="#141414"
+                android:textSize="13sp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/rdfOpis1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/zanimanje"
+                android:textColor="@color/colorPrimaryDark"
+                android:textAllCaps="true"
+                android:textStyle="bold"
+                android:text="Opis u ontologiji:"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/colorPrimaryDark"
+                android:layout_below="@id/rdfOpis1"/>
+
+            <TextView
+                android:id="@+id/rdfOpis"
+                android:layout_below="@id/rdfOpis1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:paddingBottom="20dp"
+                android:textColor="#141414"
+                android:textSize="13sp"
+                android:textStyle="bold"/>
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+
+</LinearLayout>
+
